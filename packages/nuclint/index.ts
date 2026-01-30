@@ -2,10 +2,13 @@ import type { Linter } from 'eslint';
 import stylistic from '@stylistic/eslint-plugin';
 import importPlugin from 'eslint-plugin-import';
 import tseslint from 'typescript-eslint';
+import vuePlugin from 'eslint-plugin-vue';
+import vueParser from 'vue-eslint-parser';
 
 export const config: Linter.Config[] = [
   stylistic.configs.recommended,
   ...tseslint.configs.recommended,
+  ...vuePlugin.configs['flat/recommended'],
   {
     files: ['**/*.{js,ts,vue}'],
     plugins: {
@@ -33,6 +36,18 @@ export const config: Linter.Config[] = [
           ],
         },
       ],
+    },
+  },
+  {
+    files: ['**/*.vue'],
+    languageOptions: {
+      parser: vueParser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+        parser: tseslint.parser,
+        extraFileExtensions: ['.vue'],
+      },
     },
   },
   {
