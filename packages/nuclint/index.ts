@@ -18,6 +18,7 @@ export const config: Linter.Config[] = [
     rules: {
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'always'],
+      '@stylistic/space-before-blocks': ['error', 'always'],
       '@stylistic/member-delimiter-style': [
         'error',
         {

@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.4.0
+
+### Minor Changes
+
+- Enforce space between function name and ( in function definition
+
 ## 0.3.0
 
 ### Minor Changes
