@@ -18,6 +18,19 @@ export const config: Linter.Config[] = [
     rules: {
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'always'],
+      '@stylistic/member-delimiter-style': [
+        'error',
+        {
+          multiline: {
+            delimiter: 'semi',
+            requireLast: true,
+          },
+          singleline: {
+            delimiter: 'semi',
+            requireLast: false,
+          },
+        },
+      ],
       'import/first': 'error',
       'import/newline-after-import': 'error',
       'import/no-duplicates': 'error',

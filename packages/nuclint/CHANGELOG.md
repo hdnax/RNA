@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.3.0
+
+### Minor Changes
+
+- Mandate ; at the end of a property type declaration inside interface
+
 ## 0.2.0
 
 ### Minor Changes
