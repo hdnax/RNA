@@ -1,7 +1,7 @@
 # Genuix
 
 ![Status](https://img.shields.io/badge/status-active-brightblue)
-![Version](https://img.shields.io/badge/version-0.0.0--alpha-orange)
+![Version](https://img.shields.io/badge/version-0.3.0--alpha-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 A personal design system with DNA in its name — **Gene** + **UI/UX** = **Genuix** (sounds like "genuine-x").

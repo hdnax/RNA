@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@hdnax/genuix",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A personal design system — Gene + UI/UX = Genuix.",
   "repository": {
     "type": "git",

@@ -16,9 +16,14 @@ export const config: Linter.Config[] = [
       'import': importPlugin,
     },
     rules: {
+      'no-unused-vars': ['error', {
+        varsIgnorePattern: '_.*',
+      }],
+      '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'single'],
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/space-before-blocks': ['error', 'always'],
+      '@stylistic/space-before-function-paren': ['error', 'always'],
       '@stylistic/member-delimiter-style': [
         'error',
         {

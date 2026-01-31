@@ -5,6 +5,9 @@
 ### Minor Changes
 
 - Enforce space between function name and ( in function definition
+- Enforce space before { in block
+- Allow unused vars if it starts with _
+- Enforce indentation as 2 spaces
 
 ## 0.3.0
 
@@ -22,7 +25,7 @@
 
 ### Minor Changes
 
-- f85beb5: Publish nuclint as raw js
+- Publish nuclint as raw js
 
 ## 0.0.0
 
