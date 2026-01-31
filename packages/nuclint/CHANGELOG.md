@@ -1,12 +1,18 @@
 # nuclint
 
+## 0.4.1
+
+### Patch Changes
+
+- Use @typescript-eslint/no-unused-vars instead of base no-unused-vars rule
+
 ## 0.4.0
 
 ### Minor Changes
 
 - Enforce space between function name and ( in function definition
 - Enforce space before { in block
-- Allow unused vars if it starts with _
+- Allow unused vars if it starts with \_
 - Enforce indentation as 2 spaces
 
 ## 0.3.0

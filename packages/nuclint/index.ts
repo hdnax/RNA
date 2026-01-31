@@ -16,7 +16,7 @@ export const config: Linter.Config[] = [
       'import': importPlugin,
     },
     rules: {
-      'no-unused-vars': ['error', {
+      '@typescript-eslint/no-unused-vars': ['error', {
         varsIgnorePattern: '_.*',
       }],
       '@stylistic/indent': ['error', 2],
