@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@hdnax/stdx",
+  "version": "0.1.0",
+  "description": "Shared useful utilities.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdnax/rna.git",
+    "directory": "packages/stdx"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "type": "module",
+  "main": "./dist/stdx.umd.cjs",
+  "module": "./dist/stdx.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/stdx.js",
+      "require": "./dist/stdx.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "eslint"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "eslint": "^9.39.2"
+  },
+  "devDependencies": {
+    "@hdnax/nuclint": "workspace:*",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}

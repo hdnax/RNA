@@ -73,6 +73,16 @@ importers:
         specifier: ^10.2.0
         version: 10.2.0(eslint@9.39.2(jiti@2.6.1))
 
+  packages/stdx:
+    dependencies:
+      eslint:
+        specifier: ^9.39.2
+        version: 9.39.2(jiti@2.6.1)
+    devDependencies:
+      '@hdnax/nuclint':
+        specifier: workspace:*
+        version: link:../nuclint
+
 packages:
 
   '@adobe/css-tools@4.4.4':
