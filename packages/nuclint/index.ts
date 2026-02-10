@@ -57,10 +57,10 @@ export const config: Linter.Config[] = [
           code: 100,
           tabWidth: 2,
           ignoreUrls: true,
-          ignoreStrings: false,
-          ignoreTemplateLiterals: false,
+          ignoreStrings: true,
+          ignoreTemplateLiterals: true,
           ignoreRegExpLiterals: true,
-          ignoreComments: false,
+          ignoreComments: true,
         },
       ],
       '@stylistic/member-delimiter-style': [
@@ -98,22 +98,18 @@ export const config: Linter.Config[] = [
           ObjectExpression: {
             multiline: true,
             minProperties: 2,
-            consistent: true,
           },
           ObjectPattern: {
             multiline: true,
             minProperties: 2,
-            consistent: true,
           },
           ImportDeclaration: {
             multiline: true,
             minProperties: 2,
-            consistent: true,
           },
           ExportDeclaration: {
             multiline: true,
             minProperties: 2,
-            consistent: true,
           },
         },
       ],
@@ -133,6 +129,7 @@ export const config: Linter.Config[] = [
         },
       ],
       '@stylistic/function-call-argument-newline': ['error', 'consistent'],
+      '@stylistic/function-paren-newline': ['error', 'multiline-arguments'],
 
       // Import rules
       'import/first': 'error',
