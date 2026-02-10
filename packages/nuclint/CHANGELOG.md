@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.9.0
+
+### Minor Changes
+
+- Relax ternary formatting rules to allow single-line ternaries. Changed `multiline-ternary` from `always` to `always-multiline`, which only breaks ternaries across multiple lines when they contain nested ternaries or exceed the maximum line length.
+
 ## 0.8.1
 
 ### Patch Changes

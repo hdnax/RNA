@@ -86,7 +86,7 @@ export const config: Linter.Config[] = [
           },
         },
       ],
-      '@stylistic/multiline-ternary': ['error', 'always'],
+      '@stylistic/multiline-ternary': ['error', 'always-multiline'],
       '@stylistic/operator-linebreak': [
         'error',
         'before',
