@@ -36,6 +36,15 @@ export const config: Linter.Config[] = [
       '@stylistic/eol-last': ['error', 'always'],
       '@stylistic/indent': ['error', 2],
       '@stylistic/key-spacing': ['error', { beforeColon: false, afterColon: true }],
+      '@stylistic/max-len': ['error', {
+        code: 100,
+        tabWidth: 2,
+        ignoreUrls: true,
+        ignoreStrings: false,
+        ignoreTemplateLiterals: false,
+        ignoreRegExpLiterals: true,
+        ignoreComments: false,
+      }],
       '@stylistic/member-delimiter-style': [
         'error',
         {
@@ -57,6 +66,18 @@ export const config: Linter.Config[] = [
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/space-before-blocks': ['error', 'always'],
       '@stylistic/space-before-function-paren': ['error', 'always'],
+
+      // Multi-line formatting rules - enforce line breaks for multiple items
+      '@stylistic/object-curly-newline': ['error', {
+        ObjectExpression: { multiline: true, minProperties: 2, consistent: true },
+        ObjectPattern: { multiline: true, minProperties: 2, consistent: true },
+        ImportDeclaration: { multiline: true, minProperties: 2, consistent: true },
+        ExportDeclaration: { multiline: true, minProperties: 2, consistent: true },
+      }],
+      '@stylistic/object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
+      '@stylistic/array-element-newline': ['error', { multiline: true, minItems: 5 }],
+      '@stylistic/array-bracket-newline': ['error', { multiline: true, minItems: 5 }],
+      '@stylistic/function-call-argument-newline': ['error', 'consistent'],
 
       // Import rules
       'import/first': 'error',
