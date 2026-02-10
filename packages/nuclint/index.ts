@@ -1,9 +1,11 @@
 import type { Linter } from 'eslint';
 import stylistic from '@stylistic/eslint-plugin';
 import importPlugin from 'eslint-plugin-import';
+import unicorn from 'eslint-plugin-unicorn';
 import tseslint from 'typescript-eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import vueParser from 'vue-eslint-parser';
+import { preferLessThanRule } from './rules/prefer_less_than';
 
 export const config: Linter.Config[] = [
   stylistic.configs.recommended,
@@ -14,8 +16,12 @@ export const config: Linter.Config[] = [
     plugins: {
       '@stylistic': stylistic,
       'import': importPlugin,
+      'unicorn': unicorn,
+      'custom': { rules: { 'prefer-less-than': preferLessThanRule } },
     },
     rules: {
+      // Comparison operators - prefer < and <= over > and >=
+      'custom/prefer-less-than': 'error',
       // TypeScript rules
       '@typescript-eslint/no-unused-vars': [
         'error',
@@ -43,7 +49,11 @@ export const config: Linter.Config[] = [
         },
       ],
       '@stylistic/eol-last': ['error', 'always'],
-      '@stylistic/indent': ['error', 2],
+      '@stylistic/indent': [
+        'error',
+        2,
+        { flatTernaryExpressions: true },
+      ],
       '@stylistic/key-spacing': [
         'error',
         {
@@ -76,7 +86,19 @@ export const config: Linter.Config[] = [
           },
         },
       ],
-      '@stylistic/multiline-ternary': ['error', 'always-multiline'],
+      '@stylistic/multiline-ternary': ['error', 'always'],
+      '@stylistic/operator-linebreak': [
+        'error',
+        'before',
+        {
+          overrides: {
+            '=': 'after',
+            '+=': 'after',
+            '-=': 'after',
+          },
+        },
+      ],
+      '@stylistic/newline-per-chained-call': ['error', { ignoreChainWithDepth: 2 }],
       '@stylistic/no-multiple-empty-lines': [
         'error',
         {

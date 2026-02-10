@@ -1,5 +1,16 @@
 # nuclint
 
+## 0.8.0
+
+### Minor Changes
+
+- Added ESLint rules for better code formatting:
+  - Breaking complex conditions into multiple lines with `operator-linebreak`
+  - Enforcing flat nested ternaries without excessive indentation using `flatTernaryExpressions`
+  - Forcing all ternaries to be multiline with `multiline-ternary: always`
+  - Breaking chained method calls with `newline-per-chained-call`
+  - Custom rule to enforce using `<` and `<=` instead of `>` and `>=` comparison operators, following `rust-analyzer`
+
 ## 0.7.0
 
 ### Minor Changes
