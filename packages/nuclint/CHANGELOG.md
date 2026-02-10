@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.6.0
+
+### Minor Changes
+
+- Add rules mandating arrays and objects to break on to new lines & fix lint issues
+
 ## 0.5.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # genuix
 
+## 0.3.1
+
+### Patch Changes
+
+- Add rules mandating arrays and objects to break on to new lines & fix lint issues
+
 ## 0.3.0
 
 ### Minor Changes
