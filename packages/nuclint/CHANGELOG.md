@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.8.1
+
+### Patch Changes
+
+- Fix import paths of `./rules/prefer_less_than.ts`
+
 ## 0.8.0
 
 ### Minor Changes
