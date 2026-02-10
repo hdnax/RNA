@@ -5,7 +5,7 @@ import unicorn from 'eslint-plugin-unicorn';
 import tseslint from 'typescript-eslint';
 import vuePlugin from 'eslint-plugin-vue';
 import vueParser from 'vue-eslint-parser';
-import { preferLessThanRule } from './rules/prefer_less_than';
+import { preferLessThanRule } from './rules/prefer_less_than.js';
 
 export const config: Linter.Config[] = [
   stylistic.configs.recommended,
