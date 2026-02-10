@@ -1,5 +1,13 @@
 # nuclint
 
+## 0.7.0
+
+### Minor Changes
+
+- Ignore strings, comments in `maxlen` rules
+- Enforce breaking long parameter lists on multiple lines
+- Disallow pattern like `{ prop: key; \n ... \n }`
+
 ## 0.6.0
 
 ### Minor Changes
