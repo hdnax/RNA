@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.9.1
+
+### Patch Changes
+
+- Make max-len more relaxed & add consistent: true to object-property-newline
+
 ## 0.9.0
 
 ### Minor Changes
