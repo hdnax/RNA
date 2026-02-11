@@ -64,7 +64,7 @@ export const config: Linter.Config[] = [
       '@stylistic/max-len': [
         'error',
         {
-          code: 100,
+          code: 200,
           tabWidth: 2,
           ignoreUrls: true,
           ignoreStrings: true,
@@ -120,22 +120,31 @@ export const config: Linter.Config[] = [
           ObjectExpression: {
             multiline: true,
             minProperties: 2,
+            consistent: true,
           },
           ObjectPattern: {
             multiline: true,
             minProperties: 2,
+            consistent: true,
           },
           ImportDeclaration: {
             multiline: true,
             minProperties: 2,
+            consistent: true,
           },
           ExportDeclaration: {
             multiline: true,
             minProperties: 2,
+            consistent: true,
           },
         },
       ],
-      '@stylistic/object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
+      '@stylistic/object-property-newline': [
+        'error',
+        {
+          allowAllPropertiesOnSameLine: false,
+        },
+      ],
       '@stylistic/array-element-newline': [
         'error',
         {
