@@ -9,7 +9,8 @@
     "directory": "packages/stdx"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "type": "module",
   "main": "./dist/stdx.umd.cjs",
