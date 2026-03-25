@@ -11,3 +11,4 @@
 |---------|-------------|
 | [genuix](./packages/genuix) | Vue design system + Documentation of my research on design systems. |
 | [nuclint](./packages/nuclint) | Shared ESLint configuration. |
+| [splice.js](./packages/splice.js) | Lightweight incremental reactive computation. |

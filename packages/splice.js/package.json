@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@hdnax/splice.js",
+  "version": "0.1.0",
+  "description": "Efficient incremental computation.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdnax/rna.git",
+    "directory": "packages/splice.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "type": "module",
+  "main": "./dist/splice.umd.cjs",
+  "module": "./dist/splice.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/splice.js",
+      "require": "./dist/splice.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "reactive programming"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "eslint": "^9.39.2"
+  },
+  "devDependencies": {
+    "@hdnax/nuclint": "workspace:*",
+    "vite-plugin-dts": "^4.5.4"
+  }
+}
