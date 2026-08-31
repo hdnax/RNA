@@ -1,5 +1,11 @@
 # genuix
 
+## 0.16.0
+
+### Minor Changes
+
+- Touch up design system and remove unused components
+
 ## 0.15.2
 
 ### Patch Changes
