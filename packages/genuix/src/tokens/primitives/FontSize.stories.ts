@@ -13,15 +13,15 @@ import {
 const sizes = [
   {
     token: '--text-1',
-    label: 'text-1 (10px)',
+    label: 'text-1 (11px)',
   },
   {
     token: '--text-2',
-    label: 'text-2 (12px)',
+    label: 'text-2 (14px)',
   },
   {
     token: '--text-3',
-    label: 'text-3 (14px)',
+    label: 'text-3 (15px)',
   },
   {
     token: '--text-4',
@@ -29,39 +29,27 @@ const sizes = [
   },
   {
     token: '--text-5',
-    label: 'text-5 (20px)',
+    label: 'text-5 (21px)',
   },
   {
     token: '--text-6',
-    label: 'text-6 (24px)',
+    label: 'text-6 (26px)',
   },
   {
     token: '--text-7',
-    label: 'text-7 (29px)',
+    label: 'text-7 (33px)',
   },
   {
     token: '--text-8',
-    label: 'text-8 (35px)',
+    label: 'text-8 (41px)',
   },
   {
     token: '--text-9',
-    label: 'text-9 (42px)',
+    label: 'text-9 (51px)',
   },
   {
     token: '--text-10',
-    label: 'text-10 (50px)',
-  },
-  {
-    token: '--text-11',
-    label: 'text-11 (60px)',
-  },
-  {
-    token: '--text-12',
-    label: 'text-12 (72px)',
-  },
-  {
-    token: '--text-13',
-    label: 'text-13 (86px)',
+    label: 'text-10 (80px)',
   },
 ];
 
@@ -91,7 +79,7 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: 'Type scale built on a minor third ratio (1.2) with 16px base.',
+        component: 'Type scale built on a major third ratio (~1.25) with 17px base.',
       },
     },
   },
@@ -104,7 +92,7 @@ export const Scale: Story = {
   parameters: {
     docs: {
       description: {
-        story: 'Font size scale using minor third ratio (1.2), base 16px.',
+        story: 'Font size scale using major third ratio (~1.25), base 17px.',
       },
     },
   },

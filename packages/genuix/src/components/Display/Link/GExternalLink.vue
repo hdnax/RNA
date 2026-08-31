@@ -80,7 +80,6 @@ const resolvedTooltip = computed(() => {
 
   return label || destination.value;
 });
-
 </script>
 
 <style scoped>

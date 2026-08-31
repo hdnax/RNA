@@ -12,36 +12,20 @@ import {
 
 const heights = [
   {
-    token: '--leading-1',
-    label: 'leading-1 (16px)',
+    token: '--leading-tight',
+    label: 'leading-tight (1.12)',
   },
   {
-    token: '--leading-2',
-    label: 'leading-2 (20px)',
+    token: '--leading-normal',
+    label: 'leading-normal (1.5)',
   },
   {
-    token: '--leading-3',
-    label: 'leading-3 (22px)',
+    token: '--leading-relaxed',
+    label: 'leading-relaxed (1.65)',
   },
   {
-    token: '--leading-4',
-    label: 'leading-4 (25px)',
-  },
-  {
-    token: '--leading-5',
-    label: 'leading-5 (28px)',
-  },
-  {
-    token: '--leading-6',
-    label: 'leading-6 (32px)',
-  },
-  {
-    token: '--leading-7',
-    label: 'leading-7 (36px)',
-  },
-  {
-    token: '--leading-8',
-    label: 'leading-8 (44px)',
+    token: '--leading-loose',
+    label: 'leading-loose (1.7)',
   },
 ];
 
@@ -76,7 +60,7 @@ const meta = {
   parameters: {
     docs: {
       description: {
-        component: 'Fixed line heights on a 4px grid',
+        component: 'Unitless line height ratios, synced with Typerighter',
       },
     },
   },
@@ -89,7 +73,7 @@ export const Scale: Story = {
   parameters: {
     docs: {
       description: {
-        story: 'Fixed line heights snapped to 4px grid.',
+        story: 'Unitless line height ratios.',
       },
     },
   },

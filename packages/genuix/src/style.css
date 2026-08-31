@@ -4,7 +4,8 @@
 
 @import "tailwindcss";
 @import "floating-vue/style.css";
-@import "./fonts/ibm-plex-mono.css";
+@import "@fontsource-variable/archivo";
+@import "@fontsource-variable/jetbrains-mono";
 
 @layer components;
 
@@ -30,7 +31,7 @@ body {
   font-family: var(--font-sans);
   font-size: var(--text-md);
   font-weight: var(--font-weight-normal);
-  line-height: var(--leading-3);
+  line-height: var(--leading-relaxed);
   color: var(--gui-neutral-fg);
 }
 

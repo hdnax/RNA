@@ -169,7 +169,7 @@ function selectColor (selectedColor: ColorSwatch) {
 }
 
 .color-button {
-  @apply flex flex-row gap-2 justify-start px-2  text-md leading-5;
+  @apply flex flex-row gap-2 justify-start px-2  text-md leading-relaxed;
 }
 
 /* Trigger sizes */

@@ -293,7 +293,7 @@ async function clickCopyButton () {
 }
 
 .code-pre {
-  @apply m-0 leading-0;
+  @apply m-0 leading-[0];
   @apply grid; /* grid is used to ensure all div spans the same space (so highlighted background will be consistent)*/
   @apply whitespace-pre-wrap; /* LEARN: Allow wrapping while preserving whitespace, else `overflow-wrap` wouldn't work */
   @apply break-words; /* Break long tokens that exceed container */
@@ -305,7 +305,7 @@ async function clickCopyButton () {
 }
 
 .code-line {
-  @apply leading-1 flex items-start py-xs pr-2;
+  @apply leading-normal flex items-start py-xs pr-2;
 }
 
 .code-line:hover {
@@ -318,7 +318,7 @@ async function clickCopyButton () {
 
 .code-line-number {
   @apply text-xs gui-neutral-fg-muted mr-6 shrink-0 select-none; /* Do not make code selection also select code line number */
-  line-height: var(--leading-3); /* Match content line-height so number aligns with first wrapped line */
+  line-height: var(--leading-normal); /* Match content line-height so number aligns with first wrapped line */
 }
 
 .code-pre :deep(> div) {
@@ -327,7 +327,7 @@ async function clickCopyButton () {
 
 .code-line-content {
   @apply text-sm;
-  line-height: var(--leading-3); /* More breathing room for wrapped lines */
+  line-height: var(--leading-normal); /* More breathing room for wrapped lines */
 }
 
 /* Create a shadow to simulate an outline running on some border */

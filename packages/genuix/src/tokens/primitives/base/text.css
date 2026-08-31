@@ -7,22 +7,19 @@
  * @presenter FontSize
  */
 @theme static {
-  /* Font size scale: minor third ratio (1.2)
-   * Tuned for monospace (IBM Plex Mono)
-   * Base 14px
+  /* Font size scale: major third ratio (~1.25)
+   * Synced with Typerighter
+   * Base 17px
    * */
-  --text-1: 10px;
-  --text-2: 12px;
-  --text-3: 14px;
+  --text-1: 11px;
+  --text-2: 14px;
+  --text-3: 15px;
   --text-4: 17px;
-  --text-5: 20px;
-  --text-6: 24px;
-  --text-7: 29px;
-  --text-8: 35px;
-  --text-9: 42px;
-  --text-10: 50px;
-  --text-11: 60px;
-  --text-12: 72px;
-  --text-13: 86px;
+  --text-5: 21px;
+  --text-6: 26px;
+  --text-7: 33px;
+  --text-8: 41px;
+  --text-9: 51px;
+  --text-10: 80px;
 }
 /** @tokens-end */

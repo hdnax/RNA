@@ -11,8 +11,8 @@
  * @presenter FontFamily
  */
 @theme static {
-  --font-sans: "IBM Plex Mono", monospace;
-  --font-mono: "IBM Plex Mono", monospace;
+  --font-sans: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", monospace;
 }
 
 /** @tokens-end */
@@ -22,32 +22,26 @@
  * @presenter FontSize
  */
 @theme static {
-  --text-xs: var(--text-1);
-  --text-xs--line-height: var(--leading-1);
-  --text-sm: var(--text-2);
-  --text-sm--line-height: var(--leading-2);
-  --text-md: var(--text-3);
-  --text-md--line-height: var(--leading-3);
-  --text-lg: var(--text-4);
-  --text-lg--line-height: var(--leading-4);
-  --text-xl: var(--text-5);
-  --text-xl--line-height: var(--leading-5);
-  --text-2xl: var(--text-6);
-  --text-2xl--line-height: var(--leading-6);
-  --text-3xl: var(--text-7);
-  --text-3xl--line-height: var(--leading-7);
-  --text-4xl: var(--text-8);
-  --text-4xl--line-height: var(--leading-8);
-  --text-5xl: var(--text-9);
-  --text-5xl--line-height: 1;
-  --text-6xl: var(--text-10);
-  --text-6xl--line-height: 1;
-  --text-7xl: var(--text-11);
-  --text-7xl--line-height: 1;
-  --text-8xl: var(--text-12);
-  --text-8xl--line-height: 1;
-  --text-9xl: var(--text-13);
-  --text-9xl--line-height: 1;
+  --text-2xs: var(--text-1);
+  --text-2xs--line-height: var(--leading-normal);
+  --text-xs: var(--text-2);
+  --text-xs--line-height: var(--leading-normal);
+  --text-sm: var(--text-3);
+  --text-sm--line-height: var(--leading-normal);
+  --text-md: var(--text-4);
+  --text-md--line-height: var(--leading-relaxed);
+  --text-lg: var(--text-5);
+  --text-lg--line-height: var(--leading-normal);
+  --text-xl: var(--text-6);
+  --text-xl--line-height: var(--leading-normal);
+  --text-2xl: var(--text-7);
+  --text-2xl--line-height: var(--leading-tight);
+  --text-3xl: var(--text-8);
+  --text-3xl--line-height: var(--leading-tight);
+  --text-4xl: var(--text-9);
+  --text-4xl--line-height: var(--leading-tight);
+  --text-5xl: var(--text-10);
+  --text-5xl--line-height: var(--leading-tight);
 }
 
 /** @tokens-end */

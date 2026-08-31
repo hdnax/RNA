@@ -40,5 +40,4 @@ const {
   /** Array of key names to display as a shortcut combination */
   keys: GKbdKeyName[];
 }>();
-
 </script>

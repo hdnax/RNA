@@ -15,6 +15,7 @@ import {
 const meta = {
   title: 'Components/Display/GAnchor',
   tags: ['autodocs'],
+  component: GAnchor,
   parameters: {
     docs: {
       description: {

@@ -65,11 +65,6 @@ export type {
   GBadgeColor,
 } from './Badge/types';
 
-// Hero
-export {
-  default as GHero,
-} from './Hero/GHero.vue';
-
 // Logo
 export {
   default as GLogo,
@@ -112,23 +107,6 @@ export {
 export {
   default as GCollapsible,
 } from './Collapsible/GCollapsible.vue';
-
-// Filterable
-export {
-  default as GFilterable,
-} from './Filterable/GFilterable.vue';
-
-export {
-  default as GFilterableItem,
-} from './Filterable/GFilterableItem.vue';
-
-export {
-  default as GFilterableSearchBox,
-} from './Filterable/GFilterableSearchBox.vue';
-
-export {
-  default as GFilterablePaginator,
-} from './Filterable/GFilterablePaginator.vue';
 
 // Flippable
 export {
@@ -192,47 +170,6 @@ export {
   GTabPlacement,
 } from './Tab/types';
 
-// Table
-export {
-  default as GTable,
-} from './Table/GTable.vue';
-
-export {
-  default as GTableHeader,
-} from './Table/GTableHeader.vue';
-
-export {
-  default as GTableBody,
-} from './Table/GTableBody.vue';
-
-export {
-  default as GTableRow,
-} from './Table/GTableRow.vue';
-
-export {
-  default as GTableCell,
-} from './Table/GTableCell.vue';
-
-export {
-  default as GTablePaginator,
-} from './Table/GTablePaginator.vue';
-
-export {
-  default as GTableFilter,
-} from './Table/GTableFilter.vue';
-
-export {
-  default as GTableSorter,
-} from './Table/GTableSorter.vue';
-
-export type {
-  GTableColumn,
-} from './Table/types';
-
-export {
-  GSortDirection,
-} from './Table/types';
-
 // Affix
 export {
   default as GAffix,
@@ -263,11 +200,6 @@ export {
   default as GForwardLink,
 } from './Link/GForwardLink.vue';
 
-// Card
-export {
-  default as GCard,
-} from './Card/GCard.vue';
-
 // DataTable
 export {
   default as GDataTable,
@@ -276,24 +208,6 @@ export {
 export type {
   DataTableColumn,
 } from './DataTable/types';
-
-// Toc
-export {
-  default as GToc,
-} from './Toc/GToc.vue';
-
-export {
-  default as GTocItem,
-} from './Toc/GTocItem.vue';
-
-// Timeline
-export {
-  default as GTimeline,
-} from './Timeline/GTimeline.vue';
-
-export {
-  default as GTimelineItem,
-} from './Timeline/GTimelineItem.vue';
 
 // Alert
 export {
