@@ -29,6 +29,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
+  args: { id: 'intro' },
   render: () => ({
     components: {
       GAnchor,
@@ -50,6 +51,7 @@ export const Default: Story = {
 };
 
 export const CustomIcon: Story = {
+  args: { id: 'section' },
   render: () => ({
     components: {
       GAnchor,
@@ -70,6 +72,7 @@ export const CustomIcon: Story = {
 };
 
 export const MixedHeadings: Story = {
+  args: { id: 'h1' },
   render: () => ({
     components: {
       GAnchor,
