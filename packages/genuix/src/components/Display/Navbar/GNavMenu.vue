@@ -82,7 +82,7 @@ provide(NAV_MENU_DEPTH_KEY, true);
 }
 
 .nav-menu-trigger:hover {
-  @apply gui-neutral-fg gui-neutral-bg-hover;
+  @apply gui-neutral-fg gui-primary-bg-hover;
 }
 
 .nav-menu-icon {

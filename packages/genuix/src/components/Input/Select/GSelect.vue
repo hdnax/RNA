@@ -442,7 +442,7 @@ function handleKeydown (event: KeyboardEvent) {
 /* Search row */
 .select-search-row {
   @apply gui-neutral-bg-hover rounded-none gui-neutral-fg-muted;
-  @apply border-b gui-neutral-border;
+  @apply border-b gui-primary-border;
   @apply flex items-center flex-wrap gap-sm max-w-full cursor-text;
 }
 
@@ -481,7 +481,7 @@ function handleKeydown (event: KeyboardEvent) {
 
 /* Box variant trigger */
 .select-trigger--box {
-  @apply border gui-neutral-border-subtle;
+  @apply border gui-primary-border-subtle;
 }
 
 .select-box-label {

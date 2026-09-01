@@ -70,7 +70,7 @@ const selected = defineModel<string>();
 const {
   id = undefined,
   size = GSize.Md,
-  semantic = GSemantic.Neutral,
+  semantic = GSemantic.Primary,
   disabled = false,
   label = undefined,
   value,
@@ -122,7 +122,7 @@ defineExpose({
 }
 
 .radio-circle {
-  @apply inline-flex items-center justify-center shrink-0 rounded-full border border-solid gui-neutral-border gui-neutral-bg;
+  @apply inline-flex items-center justify-center shrink-0 rounded-full border border-solid gui-primary-border gui-neutral-bg;
   transition: border-color var(--duration-fast) var(--ease-default);
 }
 

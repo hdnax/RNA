@@ -57,7 +57,7 @@ defineOptions({
 const {
   id = undefined,
   prominence = GButtonProminence.Primary,
-  semantic = GButtonSemantic.Neutral,
+  semantic = GButtonSemantic.Primary,
   size = GButtonSize.Md,
   disabled = false,
   loading = false,

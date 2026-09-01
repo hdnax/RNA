@@ -141,7 +141,7 @@ onUnmounted(() => context.unregister(value));
 
 .multiselect-option:hover,
 .multiselect-option--focused {
-  background: var(--gui-neutral-bg-hover);
+  background: var(--gui-primary-bg-hover);
 }
 
 .multiselect-dot {

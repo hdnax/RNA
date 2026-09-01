@@ -177,7 +177,7 @@ onUnmounted(() => context.unregister(value));
 
 .select-option:hover,
 .select-option--focused {
-  background: var(--gui-neutral-bg-hover);
+  background: var(--gui-primary-bg-hover);
 }
 
 .select-dot {

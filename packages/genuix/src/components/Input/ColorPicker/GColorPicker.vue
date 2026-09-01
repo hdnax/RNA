@@ -160,12 +160,12 @@ function selectColor (selectedColor: ColorSwatch) {
 }
 
 .color-chip {
-  @apply size-md rounded-md border gui-neutral-border mr-1;
+  @apply size-md rounded-md border gui-primary-border mr-1;
 }
 
 /* Color panel */
 .colorpicker-panel {
-  @apply gui-neutral-bg gui-neutral-border-subtle rounded-lg font-mono p-sm flex flex-col max-h-56 overflow-auto;
+  @apply gui-neutral-bg gui-primary-border-subtle rounded-lg font-mono p-sm flex flex-col max-h-56 overflow-auto;
 }
 
 .color-button {

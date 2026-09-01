@@ -380,7 +380,7 @@ function goToday () {
 }
 
 .datepicker-day:hover {
-  @apply gui-neutral-bg-hover;
+  @apply gui-primary-bg-hover;
 }
 
 .datepicker-day--outside {
@@ -397,12 +397,12 @@ function goToday () {
 }
 
 .datepicker-day--selected {
-  @apply gui-info-solid;
-  color: var(--gui-neutral-bg);
+  @apply gui-primary-solid;
+  color: var(--gui-primary-bg);
 }
 
 .datepicker-day--selected:hover {
-  @apply gui-info-solid-hover;
+  @apply gui-primary-solid-hover;
 }
 }
 </style>

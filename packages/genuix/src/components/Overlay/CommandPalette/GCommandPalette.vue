@@ -293,7 +293,7 @@ watch(query, () => {
 
 .command-palette-item:hover,
 .command-palette-item--focused {
-  @apply gui-neutral-bg-hover gui-neutral-fg;
+  @apply gui-primary-bg-hover gui-neutral-fg;
 }
 
 .command-palette-item-icon {

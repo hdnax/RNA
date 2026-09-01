@@ -221,7 +221,7 @@ const filteredCategories = computed(() => {
   display: flex;
   gap: var(--spacing-2xs);
   padding: var(--spacing-xs) var(--spacing-sm);
-  border-bottom: 1px solid var(--gui-neutral-border-subtle);
+  border-bottom: 1px solid var(--gui-primary-border-subtle);
   flex-shrink: 0;
 }
 
@@ -250,7 +250,7 @@ const filteredCategories = computed(() => {
 
 .emoji-picker-category-btn--active {
   opacity: 1;
-  background: var(--gui-neutral-bg-hover);
+  background: var(--gui-primary-bg-active);
 }
 
 .emoji-picker-grid {
@@ -298,7 +298,7 @@ const filteredCategories = computed(() => {
 }
 
 .emoji-picker-emoji:hover {
-  background: var(--gui-neutral-bg-hover);
+  background: var(--gui-primary-bg-hover);
   transform: scale(1.2);
 }
 

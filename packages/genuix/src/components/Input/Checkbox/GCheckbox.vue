@@ -82,7 +82,7 @@ const {
   id = undefined,
   name = undefined,
   size = GSize.Md,
-  semantic = GSemantic.Neutral,
+  semantic = GSemantic.Primary,
   disabled = false,
   label = undefined,
 } = defineProps<{
@@ -126,7 +126,7 @@ defineExpose({
 }
 
 .checkbox-box {
-  @apply inline-flex items-center justify-center shrink-0 rounded-sm border border-solid gui-neutral-border gui-neutral-bg;
+  @apply inline-flex items-center justify-center shrink-0 rounded-sm border border-solid gui-primary-border gui-neutral-bg;
   transition: background var(--duration-fast) var(--ease-default), border-color var(--duration-fast) var(--ease-default);
 }
 

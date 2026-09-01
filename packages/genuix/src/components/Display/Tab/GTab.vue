@@ -212,19 +212,19 @@ provide(TAB_KEY, {
 }
 
 .tab-bar--top {
-  @apply flex-row border-b gui-neutral-border-subtle;
+  @apply flex-row border-b gui-primary-border-subtle;
 }
 
 .tab-bar--bottom {
-  @apply flex-row border-t gui-neutral-border-subtle;
+  @apply flex-row border-t gui-primary-border-subtle;
 }
 
 .tab-bar--left {
-  @apply flex-col border-r gui-neutral-border-subtle;
+  @apply flex-col border-r gui-primary-border-subtle;
 }
 
 .tab-bar--right {
-  @apply flex-col border-l gui-neutral-border-subtle;
+  @apply flex-col border-l gui-primary-border-subtle;
 }
 
 /* Tab trigger */

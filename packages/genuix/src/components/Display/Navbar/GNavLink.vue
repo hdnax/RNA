@@ -59,7 +59,7 @@ const {
 }
 
 .nav-link:hover {
-  @apply gui-neutral-fg gui-neutral-bg-hover no-underline;
+  @apply gui-neutral-fg gui-primary-bg-hover no-underline;
 }
 
 .nav-link--active {

@@ -13,6 +13,7 @@ export enum GProminence {
 // Shared semantic roles across components (Button, Switch, etc.)
 export enum GSemantic {
   Neutral = 'neutral',
+  Primary = 'primary',
   Danger = 'danger',
   Success = 'success',
   Warning = 'warning',

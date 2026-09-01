@@ -64,7 +64,7 @@ const render: Story['render'] = (arguments_) => ({
 export const PrimaryButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Primary,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
     size: GButtonSize.Md,
   },
   parameters: {
@@ -73,7 +73,7 @@ export const PrimaryButtonStory: Story = {
         story: 'Default primary button',
       },
       source: {
-        code: '<GButton prominence="primary" semantic="neutral" size="md">Button</GButton>',
+        code: '<GButton prominence="primary" semantic="primary" size="md">Button</GButton>',
       },
     },
   },
@@ -83,7 +83,7 @@ export const PrimaryButtonStory: Story = {
 export const SecondaryButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Secondary,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
   },
   parameters: {
     docs: {
@@ -91,7 +91,7 @@ export const SecondaryButtonStory: Story = {
         story: 'Secondary tinted background',
       },
       source: {
-        code: '<GButton prominence="secondary" semantic="neutral">Button</GButton>',
+        code: '<GButton prominence="secondary" semantic="primary">Button</GButton>',
       },
     },
   },
@@ -101,7 +101,7 @@ export const SecondaryButtonStory: Story = {
 export const TertiaryButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Tertiary,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
   },
   parameters: {
     docs: {
@@ -109,7 +109,7 @@ export const TertiaryButtonStory: Story = {
         story: 'Border only, no fill',
       },
       source: {
-        code: '<GButton prominence="tertiary" semantic="neutral">Button</GButton>',
+        code: '<GButton prominence="tertiary" semantic="primary">Button</GButton>',
       },
     },
   },
@@ -119,7 +119,7 @@ export const TertiaryButtonStory: Story = {
 export const GhostButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Ghost,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
   },
   parameters: {
     docs: {
@@ -127,7 +127,7 @@ export const GhostButtonStory: Story = {
         story: 'No border, no background',
       },
       source: {
-        code: '<GButton prominence="ghost" semantic="neutral">Button</GButton>',
+        code: '<GButton prominence="ghost" semantic="primary">Button</GButton>',
       },
     },
   },
@@ -137,7 +137,7 @@ export const GhostButtonStory: Story = {
 export const LoadingButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Primary,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
     loading: true,
   },
   parameters: {
@@ -146,7 +146,7 @@ export const LoadingButtonStory: Story = {
         story: 'Loading state with spinner, button disabled',
       },
       source: {
-        code: '<GButton prominence="primary" semantic="neutral" loading>Button</GButton>',
+        code: '<GButton prominence="primary" semantic="primary" loading>Button</GButton>',
       },
     },
   },
@@ -174,7 +174,7 @@ export const DangerButtonStory: Story = {
 export const DisabledButtonStory: Story = {
   args: {
     prominence: GButtonProminence.Primary,
-    semantic: GButtonSemantic.Neutral,
+    semantic: GButtonSemantic.Primary,
     disabled: true,
   },
   parameters: {
@@ -183,7 +183,7 @@ export const DisabledButtonStory: Story = {
         story: 'Disabled state',
       },
       source: {
-        code: '<GButton prominence="primary" semantic="neutral" disabled>Button</GButton>',
+        code: '<GButton prominence="primary" semantic="primary" disabled>Button</GButton>',
       },
     },
   },
@@ -267,7 +267,7 @@ export const AllSemanticsButtonStory: Story = {
         story: 'All semantics with primary prominence',
       },
       source: {
-        code: '<GButton prominence="primary" semantic="neutral">Button</GButton>',
+        code: '<GButton prominence="primary" semantic="primary">Button</GButton>',
       },
     },
   },
