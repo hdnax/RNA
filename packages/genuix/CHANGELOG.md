@@ -1,5 +1,11 @@
 # genuix
 
+## 0.16.1
+
+### Patch Changes
+
+- Make primary color more prominent
+
 ## 0.16.0
 
 ### Minor Changes
