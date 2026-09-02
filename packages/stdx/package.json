@@ -35,11 +35,11 @@
     "lint:fix": "eslint . --fix"
   },
   "peerDependencies": {
-    "eslint": "^9.39.2"
+    "eslint": "^10.9.1"
   },
   "devDependencies": {
     "@hdnax/nuclint": "workspace:*",
-    "@types/node": "^25.6.0",
-    "vite-plugin-dts": "^5.0.2"
+    "@types/node": "^26.4.1",
+    "vite-plugin-dts": "^5.1.0"
   }
 }

@@ -5,7 +5,7 @@ import type {
 // Naming rules enforce readable, non-abbreviated variable and parameter names
 export const namingRules: Linter.RulesRecord = {
   // Blacklist abbreviations and auto-replace with full names
-  'unicorn/prevent-abbreviations': [
+  'unicorn/name-replacements': [
     'error',
     {
       extendDefaultReplacements: false,

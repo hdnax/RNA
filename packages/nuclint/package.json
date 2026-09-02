@@ -40,28 +40,28 @@
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",
-    "eslint": "^9.39.2",
-    "eslint-plugin-import-x": "^4.16.2",
-    "eslint-plugin-n": "^18.0.1",
-    "eslint-plugin-perfectionist": "^5.9.0",
-    "eslint-plugin-unicorn": "^64.0.0",
-    "eslint-plugin-better-tailwindcss": "^4.5.0",
-    "eslint-plugin-vue": "^10.9.1",
-    "typescript-eslint": "^8.59.2",
-    "vue-eslint-parser": "^10.4.0"
+    "eslint": "^10.9.1",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.3.0",
+    "eslint-plugin-perfectionist": "^5.11.0",
+    "eslint-plugin-unicorn": "^74.0.0",
+    "eslint-plugin-better-tailwindcss": "^4.7.0",
+    "eslint-plugin-vue": "^10.10.0",
+    "typescript-eslint": "^8.69.0",
+    "vue-eslint-parser": "^10.4.1"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^25.6.0",
+    "@types/node": "^26.4.1",
     "eslint-plugin-better-tailwindcss": "^4.5.0",
-    "eslint-plugin-import-x": "^4.16.2",
-    "eslint-plugin-n": "^18.0.1",
-    "eslint-plugin-perfectionist": "^5.9.0",
-    "eslint-plugin-unicorn": "^64.0.0",
-    "eslint-plugin-vue": "^10.9.1",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-n": "^18.3.0",
+    "eslint-plugin-perfectionist": "^5.11.0",
+    "eslint-plugin-unicorn": "^74.0.0",
+    "eslint-plugin-vue": "^10.10.0",
     "tsup": "^8.5.1",
-    "typescript-eslint": "^8.59.2",
-    "vitest": "^4.1.5",
-    "vue-eslint-parser": "^10.4.0"
+    "typescript-eslint": "^8.69.0",
+    "vitest": "^4.1.11",
+    "vue-eslint-parser": "^10.4.1"
   }
 }
