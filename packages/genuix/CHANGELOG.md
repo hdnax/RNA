@@ -1,5 +1,11 @@
 # genuix
 
+## 0.17.0
+
+### Minor Changes
+
+- Fix styling of select box and multiselect box for consistent theming
+
 ## 0.16.1
 
 ### Patch Changes
