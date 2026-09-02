@@ -375,8 +375,7 @@ function handleKeydown (event: KeyboardEvent) {
 @layer components {
 /* Trigger */
 .select-trigger {
-  @apply inline-flex items-center justify-between rounded-md cursor-pointer gap-sm overflow-hidden;
-  width: 15rem;
+  @apply inline-flex items-center justify-between rounded-md cursor-pointer gap-sm overflow-hidden w-full;
   background: var(--_bg);
   color: var(--_fg);
   border-color: var(--_border);

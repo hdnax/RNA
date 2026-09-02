@@ -379,8 +379,7 @@ provide(MULTI_SELECT_KEY, {
 @layer components {
 /* Trigger */
 .multiselect-trigger {
-  @apply inline-flex items-center flex-wrap rounded-md cursor-pointer gap-sm overflow-hidden;
-  width: 15rem;
+  @apply inline-flex items-center flex-wrap rounded-md cursor-pointer gap-sm overflow-hidden w-full;
   background: var(--_bg);
   color: var(--_fg);
   border-color: var(--_border);

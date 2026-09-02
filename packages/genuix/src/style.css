@@ -53,7 +53,7 @@ th {
 :root .v-popper--theme-dropdown .v-popper__inner {
   background: var(--gui-neutral-bg);
   color: var(--gui-neutral-fg);
-  border: 1px solid var(--gui-neutral-border-subtle);
+  border: 1px solid var(--gui-primary-border-subtle);
   box-shadow: var(--shadow-md);
 }
 
@@ -62,7 +62,7 @@ th {
 }
 
 :root .v-popper--theme-dropdown .v-popper__arrow-outer {
-  border-color: var(--gui-neutral-border-subtle);
+  border-color: var(--gui-primary-border-subtle);
 }
 
 :root .v-popper--theme-tooltip .v-popper__inner {
