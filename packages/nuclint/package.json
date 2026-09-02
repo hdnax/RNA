@@ -35,8 +35,8 @@
     "test:ui": "vitest --ui",
     "lint": "eslint .",
     "lint:fix": "eslint ./src ./eslint.config.ts --fix",
-    "prepublishOnly": "mv ./README.md ./README.md.backup && mv ./README.npm.md ./README.md && pnpm run build",
-    "postpublish": "mv ./README.md ./README.npm.md && mv ./README.md.backup ./README.md"
+    "prepublishOnly": "cp ./README.md ./README.md.backup && cp ./README.npm.md ./README.md && pnpm run build",
+    "postpublish": "mv ./README.md.backup ./README.md"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^5.10.0",

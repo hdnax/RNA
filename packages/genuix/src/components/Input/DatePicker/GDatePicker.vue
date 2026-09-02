@@ -249,7 +249,7 @@ function previousMonth () {
 /* Actions */
 function selectDay (datetime: DateTime) {
   if (!datetime.hasSame(startViewDate.value, 'month')) {
-    startViewDate.value = datetime.startOf('month');
+    startViewDate.value = datetime.startOf('month') as DateTime<true>;
   }
   date.value = datetime;
 }
@@ -265,7 +265,7 @@ function focusDateInput () {
 function goToday () {
   const todayDate = today();
 
-  startViewDate.value = todayDate.startOf('month');
+  startViewDate.value = todayDate.startOf('month') as DateTime<true>;
   date.value = todayDate;
 }
 </script>
