@@ -10,5 +10,8 @@ book/
 # Generated design token artifacts
 packages/genuix/public/design-tokens.source.json
 
+# Publish artifacts
+*.backup
+
 # Coverage
 coverage/
