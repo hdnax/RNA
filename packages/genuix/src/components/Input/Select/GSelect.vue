@@ -441,8 +441,8 @@ function handleKeydown (event: KeyboardEvent) {
 
 /* Search row */
 .select-search-row {
-  @apply gui-neutral-bg-hover rounded-none gui-neutral-fg-muted;
-  @apply border-b gui-primary-border;
+  @apply gui-primary-bg-subtle rounded-none gui-neutral-fg-muted;
+  @apply border-b gui-primary-border-subtle;
   @apply flex items-center flex-wrap gap-sm max-w-full cursor-text;
 }
 
@@ -467,12 +467,12 @@ function handleKeydown (event: KeyboardEvent) {
 }
 
 .select-search {
-  @apply border-none outline-none bg-transparent gui-neutral-fg font-mono max-w-full text-ellipsis;
+  @apply border-none outline-none bg-transparent gui-neutral-fg max-w-full text-ellipsis;
   font-size: inherit;
 }
 
 .select-search-row:focus-within {
-  @apply gui-info-border;
+  @apply gui-primary-border;
 }
 
 .select-search::placeholder {

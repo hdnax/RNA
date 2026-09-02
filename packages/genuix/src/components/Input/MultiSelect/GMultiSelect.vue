@@ -439,7 +439,7 @@ provide(MULTI_SELECT_KEY, {
 
 /** Box */
 .multiselect-trigger--box {
-  @apply border gui-neutral-border-subtle justify-between;
+  @apply border gui-primary-border-subtle justify-between;
 
   .multiselect-pill-close {
     @apply hidden;
@@ -477,19 +477,19 @@ provide(MULTI_SELECT_KEY, {
 
 /* Search row */
 .multiselect-search-row {
-  @apply gui-neutral-bg-hover rounded-none gui-neutral-fg-muted;
-  @apply border-b gui-neutral-border;
+  @apply gui-primary-bg-subtle rounded-none gui-neutral-fg-muted;
+  @apply border-b gui-primary-border-subtle;
   @apply flex items-center flex-wrap gap-sm px-3 py-2 text-sm overflow-x-auto;
   --_pill-max-width: calc(var(--spacing) * 50);
 }
 
 .multiselect-search {
-  @apply flex-1 border-none outline-none bg-transparent gui-neutral-fg text-sm font-mono;
+  @apply flex-1 border-none outline-none bg-transparent gui-neutral-fg text-sm;
   min-width: 80px;
 }
 
 .multiselect-search-row:focus-within {
-  @apply gui-info-border;
+  @apply gui-primary-border;
 }
 
 .multiselect-search::placeholder {
