@@ -1,5 +1,11 @@
 # nuclint
 
+## 0.17.5
+
+### Patch Changes
+
+- fix: rename unicorn/prevent-abbreviations to name-replacements and update pnpm overrides for security alerts
+
 ## 0.17.4
 
 ### Patch Changes

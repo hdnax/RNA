@@ -1,5 +1,13 @@
 # genuix
 
+## 0.18.1
+
+### Patch Changes
+
+- fix: rename unicorn/prevent-abbreviations to name-replacements and update pnpm overrides for security alerts
+- Updated dependencies
+  - @hdnax/stdx@0.3.8
+
 ## 0.18.0
 
 ### Minor Changes

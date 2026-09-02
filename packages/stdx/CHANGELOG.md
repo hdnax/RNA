@@ -1,5 +1,11 @@
 # @hdnax/stdx
 
+## 0.3.8
+
+### Patch Changes
+
+- fix: rename unicorn/prevent-abbreviations to name-replacements and update pnpm overrides for security alerts
+
 ## 0.3.7
 
 ### Patch Changes
