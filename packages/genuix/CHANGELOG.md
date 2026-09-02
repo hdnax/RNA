@@ -1,5 +1,16 @@
 # genuix
 
+## 0.18.0
+
+### Minor Changes
+
+- Replace blue-tinted Slate neutrals with warm brown-tinted neutrals synced with Typerighter
+- Increase sienna saturation across `--color-primary-{1-12}` scale (light + dark)
+- Dropdown panel border uses `gui-primary-border-subtle` for visible sienna-tinted border
+- Select/MultiSelect: replace hardcoded `width: 15rem` with `w-full` for user-controlled sizing
+- Select/MultiSelect: warm up search row background, border, and focus ring to primary tokens
+- Select/MultiSelect: remove `font-mono` from search input
+
 ## 0.17.0
 
 ### Minor Changes
